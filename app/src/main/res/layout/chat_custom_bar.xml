@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/custom_bar_image"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/default_user" />
+
+    <TextView
+        android:id="@+id/custom_bar_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="6dp"
+        android:fontFamily="@font/sf_pro_display_regular"
+        android:text="Display Name"
+        android:textColor="@color/grey_90"
+        android:textSize="18sp" />
+
+    <!--<TextView-->
+        <!--android:id="@+id/custom_bar_seen"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_below="@+id/custom_bar_title"-->
+        <!--android:text="Last Seen"-->
+        <!--android:fontFamily="@font/sf_pro_display_regular"-->
+        <!--android:textColor="@color/blue_grey_400"-->
+        <!--android:textSize="13sp" />-->
+
+</RelativeLayout>

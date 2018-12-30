@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">DocSpace</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <!--Titles-->
+    <string name="login_title">Login</string>
+    <string name="signup_title">Sign up</string>
+
+    <!--Welcome messages-->
+    <string name="splash_welcome_txt">Easiest way to\nfind the best product</string>
+    <string name="login_welcome_txt">Hello there !\nWelcome Back</string>
+    <string name="signup_welcome_txt">Hello there !\nWelcome to you</string>
+
+
+    <!--Button labels-->
+    <string name="login_btn_label">Login</string>
+    <string name="signup_btn_label">Signup</string>
+
+    <string name="login_label">" Login"</string>
+    <string name="signup_label">" Signup"</string>
+
+    <string name="login_fb_btn_label">"{faw-facebook-f}    Login with Facebook"</string>
+    <string name="signup_fb_btn_label">"{faw-facebook-f}    Signup with Facebook"</string>
+
+    <string name="get_started_btn_label">Get Started</string>
+
+    <!--Edit Text hints-->
+    <string name="email_address_hint">Email Address</string>
+    <string name="full_name_hint">Full Name</string>
+    <string name="password_hint">Password</string>
+
+
+    <!--Misc texts-->
+    <string name="forgot_password">Forgot password?</string>
+    <string name="no_account">Don\’t have an account?</string>
+    <string name="have_account">Have an account?</string>
+    <string name="divider_or">OR</string>
+
+    //tab names
+
+    <string name="tab_1">Articles</string>
+    <string name="tab_2">Cases</string>
+    <string name="tab_3">My network</string>
+    <string name="tab_4">Alerts</string>
+    <string name="tab_5">Messages</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="post_desc_hint">Add Description ...</string>
+    <string name="new_post_btn_hint">Post Case</string>
+
+    <string name="comment_text_hint">Enter your comment …</string>
+    <string name="button_post_comment">Post comment</string>
+
+    <string name="posted_by_label">Posted by:</string>
+
+    <string name="send_comment_button_label">Send</string>
+
+    <string name="internet_connection_failed">No internet connection</string>
+
+    <string name="post_image_transition_name" translatable="false">post_image_transition</string>
+    <string name="www_afyalite_co_ke">www.afyalite.co.ke</string>
+
+
+</resources>

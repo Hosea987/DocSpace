@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartActivity">
+
+    <ImageView
+        android:id="@+id/splashBg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitStart"
+        android:src="@drawable/splash_bg" />
+
+    <ImageView
+        android:id="@+id/splashimage"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="268dp"
+        android:layout_marginEnd="263dp"
+        android:src="@drawable/steth4" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="254dp"
+        android:layout_marginEnd="50dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/DocText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/splashimage"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/sf_pro_display_medium"
+            android:gravity="center"
+            android:text="Doc"
+            android:textSize="48sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/DocText"
+            android:layout_alignParentEnd="true"
+            android:fontFamily="@font/sf_pro_display_regular"
+            android:gravity="center"
+            android:text="space"
+            android:textColor="@color/orange"
+            android:textSize="48sp" />
+
+    </LinearLayout>
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="159dp"-->
+        <!--android:text="Welcome to Lapit \n Chat App"-->
+        <!--android:textAlignment="center"-->
+        <!--android:textColor="@android:color/white"-->
+        <!--android:textSize="22sp"-->
+        <!--android:textStyle="bold" />-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="50dp">
+
+        <Button
+            android:id="@+id/start_login_btn"
+            style="@style/StrokeButtonStyle"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="30dp"
+            android:minWidth="@dimen/splash_btn_width"
+            android:text="@string/login_btn_label"
+           android:fontFamily="@font/sf_pro_display_regular"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/start_reg_btn"
+            style="@style/SolidButtonStyle"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="30dp"
+            android:layout_marginStart="44dp"
+            android:minWidth="@dimen/splash_btn_width"
+            android:text="@string/get_started_btn_label"
+            android:fontFamily="@font/sf_pro_display_regular"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

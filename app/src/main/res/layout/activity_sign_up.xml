@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignUpActivity">
+
+
+    <TextView
+        android:id="@+id/signup_title"
+        style="@style/LabelStyle"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="13dp"
+        android:text="@string/signup_title"
+        android:textColor="@color/orange" />
+
+    <EditText
+        android:id="@+id/et_full_name"
+        style="@style/EditTextStyle"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="16dp"
+        android:fontFamily="@font/sf_pro_display_regular"
+        android:hint="@string/full_name_hint"
+        android:textColor="#000000"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/et_email_address"
+        style="@style/EditTextStyle"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="16dp"
+        android:fontFamily="@font/sf_pro_display_regular"
+        android:hint="@string/email_address_hint"
+        android:textColor="#000000"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/profession"
+        style="@style/EditTextStyle"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="16dp"
+        android:clickable="true"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:fontFamily="@font/sf_pro_display_regular"
+        android:hint="Profession"
+        android:textColor="#000000"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/other_profession"
+        style="@style/EditTextStyle"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="16dp"
+        android:clickable="true"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:visibility="gone"
+        android:fontFamily="@font/sf_pro_display_medium"
+        android:hint="Select other profession"
+        android:textColor="#000000"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/specialty"
+        style="@style/EditTextStyle"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="16dp"
+        android:fontFamily="@font/sf_pro_display_medium"
+        android:hint="Specialty"
+        android:textColor="#000000"
+        android:visibility="gone"
+        android:inputType="text" />
+
+
+    <EditText
+        android:id="@+id/et_password"
+        style="@style/EditTextStyle"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="16dp"
+        android:fontFamily="@font/sf_pro_display_regular"
+        android:hint="Password"
+        android:textColor="#000000"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btn_signup"
+        style="@style/SolidButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/sf_pro_display_regular"
+        android:text="@string/signup_btn_label" />
+
+
+    <RelativeLayout
+        android:id="@+id/login_nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="8dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/have_account"
+            style="@style/LabelStyle"
+            android:fontFamily="@font/sf_pro_display_medium"
+            android:text="@string/have_account"
+            android:textColor="@color/account"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/loginText"
+            style="@style/LabelStyle"
+            android:layout_marginBottom="16dp"
+            android:layout_toEndOf="@id/have_account"
+            android:fontFamily="@font/sf_pro_display_medium"
+            android:text="@string/login_label"
+            android:textColor="@color/orange"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+
+</LinearLayout>

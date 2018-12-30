@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_item2"
+        android:icon="@drawable/steth"
+        android:title="Cases"/>
+
+    <item
+        android:id="@+id/action_item1"
+        android:icon="@drawable/article"
+        android:title="Feed"/>
+
+    <item
+        android:id="@+id/action_item3"
+        android:icon="@drawable/ic_people_outline_black_24dp"
+        android:title="My network"/>
+
+    <item
+        android:id="@+id/action_item4"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="Alerts"/>
+
+    <item
+        android:id="@+id/action_item5"
+        android:icon="@drawable/ic_mail_outline_black_24dp"
+        android:title="Messages"/>
+</menu>

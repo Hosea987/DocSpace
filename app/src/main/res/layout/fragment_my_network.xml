@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyNetworkFragment">
+
+    <!--<TextView-->
+    <!--android:id="@+id/heading_label"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentStart="true"-->
+    <!--android:layout_alignParentTop="true"-->
+    <!--android:layout_marginLeft="30dp"-->
+    <!--android:layout_marginTop="30dp"-->
+    <!--android:fontFamily="@font/nunito_bold"-->
+    <!--android:text="Firebase Search"-->
+    <!--android:textColor="#555555"-->
+    <!--android:textSize="24sp" />-->
+
+    <EditText
+        android:id="@+id/my_network_search_field"
+        android:layout_width="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_toStartOf="@+id/my_network_search_btn"
+        android:background="@drawable/search_layout"
+        android:ems="10"
+        android:hint="Search here"
+        android:inputType="textPersonName"
+        android:paddingBottom="10dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:textColor="#999999"
+        android:textSize="16sp" />
+
+    <ImageButton
+        android:id="@+id/my_network_search_btn"
+        android:src="@drawable/search_btn_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/my_network_search_field"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/my_network_search_field"
+        android:layout_marginRight="30dp"
+        android:background="@android:color/background_light"
+        />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/my_network_result_list"
+        android:layout_below="@id/my_network_search_field"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp">
+    </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>

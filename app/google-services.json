@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "189317614476",
+    "firebase_url": "https://projectnoon-9cc5a.firebaseio.com",
+    "project_id": "projectnoon-9cc5a",
+    "storage_bucket": "projectnoon-9cc5a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:189317614476:android:70cc3bd57e199eeb",
+        "android_client_info": {
+          "package_name": "com.example.mountaineer.docspace"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "189317614476-os46do120819hde1ugoolb6qkpgp2mim.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mountaineer.docspace",
+            "certificate_hash": "c052745c559ca840ed7541f6ff1c917743c81a72"
+          }
+        },
+        {
+          "client_id": "189317614476-jitniqd71on8d2jtu2gd60pdm3q6ck57.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5EJK2eeeDRJPMNKjySUXVIDid5CtCv_8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "189317614476-jitniqd71on8d2jtu2gd60pdm3q6ck57.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
